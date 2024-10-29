@@ -1,4 +1,4 @@
- <H3>NAME:SACHIN C</H3>
+ <H3>NAME:SACHIN.C  </H3>
 <H3>REGISTER NO:212222230125</H3>
 <H3>EX.NO:8</H3>
 <H3>DATE:</H3>
@@ -33,8 +33,9 @@ Perform speech recognition with exceptional handling:<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 
 ## PROGRAM:
-```
+```python
 import speech_recognition as sr
+import pyaudio
 r = sr.Recognizer()
 duration = 30
 print("Say something")
@@ -52,7 +53,7 @@ except Exception as e:
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/c96e7b80-8474-43f4-a9e0-8fad643be4f2)
+![378376556-c96e7b80-8474-43f4-a9e0-8fad643be4f2](https://github.com/user-attachments/assets/f6b62dcf-310c-4308-adfc-ffa914e60142)
 
 ## RESULT:
 Thus, the python program for Speech Recognition is implemented successfully.
